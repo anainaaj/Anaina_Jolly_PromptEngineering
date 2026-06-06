@@ -48,6 +48,9 @@ Slowly, Robo noticed clues. Cats often had different-shaped faces and ears than 
 A neural network is a computer system that learns in a similar way. It learns by looking at many examples and finding patterns.  
 Think of it like learning to ride a bicycle. The first time, you might wobble or fall. But each time you practice, you get better. A neural network also learns from practice and mistakes.  
 After a lot of learning, Robo could look at a brand-new picture and make a good guess about whether it was a cat or a dog—even if he had never seen that exact picture before!
+
+**Iteration Documentation**
+
 | Version | Prompt | What Changed | Why This Improved the Output |
 |----------|---------|--------------|------------------------------|
 | V1 | Explain neural networks to me like I am 10 years old. | N/A | N/A |
@@ -65,7 +68,8 @@ After a lot of learning, Robo could look at a brand-new picture and make a good 
 >**Goal**: Draft an email declining a job offer politely while expressing continued interest in the company   
 
 **Initial Prompt**: Write an email declining a job offer politely.  
-**Output**: Dear [Hiring Manager's Name],
+**Output**:  
+ Dear [Hiring Manager's Name],
 
 Thank you very much for offering me the position of [Job Title] at [Company Name]. I sincerely appreciate the time and effort you and your team invested throughout the interview process.
 
@@ -79,7 +83,10 @@ Kind regards,
 
 [Your Full Name]
 
-**Refined Prompt**: Write a professional email declining a job offer politely. Thank the hiring manager for the opportunity, express appreciation for the time spent during the interview process, and explain that you have decided to pursue another opportunity. Keep the tone respectful and professional.  
+---
+
+**Refined Prompt**:  
+Write a professional email declining a job offer politely. Thank the hiring manager for the opportunity, express appreciation for the time spent during the interview process, and explain that you have decided to pursue another opportunity. Keep the tone respectful and professional.  
 **Output** :  
 Dear [Hiring Manager's Name],
 
@@ -93,11 +100,15 @@ Thank you again for your time and understanding. I wish you and the team continu
 
 Sincerely,
 
-[Your Full Name]  
+[Your Full Name] 
 
-**Refined Prompt**: You are an experienced corporate communications professional with expertise in writing professional business emails. Write a professional and courteous email declining a job offer. Thank the hiring manager for the offer and the interview process. Briefly mention that you have chosen another opportunity that better aligns with your current goals. Express genuine interest in the company and a desire to stay connected for potential future opportunities. Use a warm, respectful, and positive tone. Keep the email between 150–200 words. Ensure the message is concise, polished, and leaves a strong positive impression.
+---
 
-**Final Output**: Dear [Hiring Manager's Name],
+**Refined Prompt**:  
+You are an experienced corporate communications professional with expertise in writing professional business emails. Write a professional and courteous email declining a job offer. Thank the hiring manager for the offer and the interview process. Briefly mention that you have chosen another opportunity that better aligns with your current goals. Express genuine interest in the company and a desire to stay connected for potential future opportunities. Use a warm, respectful, and positive tone. Keep the email between 150–200 words. Ensure the message is concise, polished, and leaves a strong positive impression.
+
+**Final Output**:  
+ Dear [Hiring Manager's Name],
 
 Thank you very much for offering me the position of [Job Title] at [Company Name]. I sincerely appreciate the time, effort, and consideration you and the team extended throughout the interview process. It was a pleasure learning more about the organization, its culture, and the exciting work being done by your team.
 
@@ -110,6 +121,13 @@ Thank you again for your understanding and for the positive experience throughou
 Warm regards,
 
 [Your Full Name]
+
+---
+
+### **Iteration Documentation**
+
+---
+
 
 
 
@@ -143,11 +161,16 @@ Warm regards,
 14.	Built for Life in Motion.
 15.	Premium Hydration, Naturally.
 
+---
+### **Iteration Documentation**
+
 | Version | Prompt | What Changed | Why This Improved the Output |
 |----------|---------|--------------|------------------------------|
 | V1 | Create a tagline for an eco-friendly water bottle brand. | N/A | Very broad prompt with no constraints on tone, audience, length, or creativity level. |
 | V2 | Create 10 catchy marketing taglines for an eco-friendly water bottle brand. The taglines should emphasize sustainability, reducing plastic waste, and healthy living. Keep each tagline under 10 words and make them modern and memorable. | Added quantity, key themes (sustainability, plastic reduction, healthy living), and a word limit. | Improved variety and ensured alignment with brand values, but outputs could still feel generic or repetitive. |
 | V3 | You are an award-winning brand strategist and copywriter specializing in sustainable premium consumer products. Generate 15 original marketing taglines for a premium eco-friendly water bottle brand aimed at environmentally conscious young professionals. The taglines should be short, memorable, emotionally engaging, and aspirational. Avoid overused eco clichés like “save the planet” or “go green.” Use a mix of playful, inspirational, and premium brand tones. | Added expert role, defined target audience, clarified premium brand positioning, specified tone variety, increased output count, and added anti-cliché constraint. | Produced more distinctive, high-quality, and brand-aligned taglines with stronger emotional appeal and reduced generic phrasing. |
+
+---
 
 ### 1.2 Iteration Documentation
 (Given with the prompts above)
@@ -216,7 +239,7 @@ ___
 
 ## Part 3: Strategic Prompting Techniques
 ### 3.1 Chain-of-Thought Prompting
->Option B: Multi-Step Reasoning  
+>**Option B: Multi-Step Reasoning**  
 **Problem**: A company has 150 employees. 60% work in engineering, 25% in sales,
 and the rest in operations. If the company plans to hire 20% more engineers
 and 10% more sales people, how many total employees will there be after hiring?
@@ -275,7 +298,7 @@ Total new hires:
 - 150 + 21.75
 - = 171.75
 
-**Final Answer**
+**Final Answer** : 
 
 **171.75 employees**
 
