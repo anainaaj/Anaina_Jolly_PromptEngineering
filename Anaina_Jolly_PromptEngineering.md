@@ -87,6 +87,7 @@ Kind regards,
 
 **Refined Prompt**:  
 Write a professional email declining a job offer politely. Thank the hiring manager for the opportunity, express appreciation for the time spent during the interview process, and explain that you have decided to pursue another opportunity. Keep the tone respectful and professional.  
+
 **Output** :  
 Dear [Hiring Manager's Name],
 
@@ -142,13 +143,13 @@ Warm regards,
 >**Goal**: Generate a creative marketing tagline for a new eco-friendly water bottle brand  
 
 **Initial Prompt**: Create a tagline for an eco-friendly water bottle brand.  
+
 **Output** :
 
 **Tagline:**
 *"Drink Clean. Live Green."*
 
-**Alternative Outputs:**
-
+**Alternative** :
 * "Sip Sustainably, Every Day."
 * "Hydration for a Healthier Planet."
 * "Refill the Bottle, Renew the Earth."
@@ -156,6 +157,7 @@ Warm regards,
 * "Choose Reuse. Choose Change."
 
 **Refined Prompt**: Create 10 catchy marketing taglines for a new eco-friendly water bottle brand. The taglines should emphasize sustainability, reducing plastic waste, and healthy living. Keep each tagline under 10 words and make them memorable and modern.  
+
 **Output**:
 
 1. **Sip Smart, Save the Planet.**
@@ -172,6 +174,7 @@ Warm regards,
 
 
 **Refined Prompt** :You are an award-winning brand strategist and copywriter specializing in sustainable premium consumer products. Generate 15 original marketing taglines for a premium eco-friendly water bottle brand aimed at environmentally conscious young professionals. The taglines should be short, memorable, emotionally engaging, and aspirational. Avoid overused eco clichés like “save the planet” or “go green.” Use a mix of playful, inspirational, and premium brand tones.  
+
 **Final Output**: 
 
 
